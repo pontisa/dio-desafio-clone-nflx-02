@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    
     <title>NETFLIX CLONE</title>
 </head>
 <body>
@@ -25,11 +30,58 @@
                 <h3 class="titulo">HOUSE OF CARDS</h3>
                 <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
                 <div class="botoes">
-                    <button class="botao" role="button">ASSISTIR AQUI</button>
-                    <button class="botao" role="button">MAIS INFORMAÇÕES</button>
+                    <button class="botao" role="button">
+                        <i class="fa-solid fa-play"></i>
+                        ASSISTIR AQUI
+                    </button>
+                    <button class="botao" role="button">
+                        <i class="fa-solid fa-circle-info"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/carousel_01.jpg" alt="Encanto">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_02.jpg" alt="Mãe x Androides">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_03.jpg" alt="The Walking Dead">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_04.jpg" alt="Suits - Homens de Terno">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_05.jpg" alt="Round 6">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_06.jpg" alt="Peaky Blinders">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_07.jpg" alt="A Anatomia de Grey">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_08.jpg" alt="Venom - Tempo de Carnificina">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_09.jpg" alt="A Perseguição">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/carousel_10.jpg" alt="Doutor Estranho no Multiverso da Loucura">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/33dfeeea2e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
